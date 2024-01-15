@@ -12,7 +12,7 @@ nav img{
     width:48px;
     height: 56px;
     margin-left: 200px;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 nav>ul{
     display: flex;
@@ -22,3 +22,19 @@ nav li{
     list-style: none;
     margin-right: 20px;
 }
+
+.background-img-section{
+    background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+}
+
+
+@media screen and (max-width:576px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
