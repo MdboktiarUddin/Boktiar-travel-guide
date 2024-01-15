@@ -24,8 +24,17 @@ nav li{
 }
 
 .background-img-section{
-    background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-image: url('/Images/banner.png');
+    text-align: center;
+    color:aliceblue ;
+    margin-bottom: 30px;
 }
+.popular-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
 
 
 @media screen and (max-width:576px){
