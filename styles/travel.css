@@ -109,28 +109,14 @@ P{
 
 
 
-@media screen and (max-width:576px){
-    nav,
-    .background-input-section{
-        display: flex;
-        flex-direction:row;
+
+@media screen and (max-width: 576px) {
+    .nav-section
+    {
+        flex-direction: column;
     }
-    .destination-section{
-        display: grid;
-grid-template-columns: repeat(1,1fr);
-    }
-    
-        
-    .popular-section{
-        flex-direction: column-reverse;
-    } 
-    .destination-img-container{
+    .background-img-section{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-     }
-
+    }
 }
-
-
-
-
