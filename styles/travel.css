@@ -36,6 +36,17 @@ nav li{
     display: flex;
     justify-content: space-evenly;
 }
+.img{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.destination-section{
+    text-align: center;
+}
+.destination-img-container{
+    display: grid;
+}
 
 
 
@@ -49,6 +60,9 @@ nav li{
     }
     .popular-section{
         flex-direction: column-reverse;
+    }
+    .destination-img-container{
+
     }
     
 }
