@@ -51,11 +51,26 @@ nav li{
 }
 .choose-container{
     width: 1300px;
-    height: 1000px;
+    height: 500px;
+    border:1px solid lightblue;
+    display: flex;
 }
-.choose-container{
+.choose-section{
     display: flex;
     flex-direction: column;
+}
+.choose-section img{
+ width: 20%;
+}
+.box{
+    width:570px;
+    height: 280px;
+}
+h3{
+    text-align: center;
+}
+P{
+    text-align: center;
 }
 
 
@@ -65,7 +80,7 @@ nav li{
     nav,
     .background-input-section{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .destination-section{
         display: grid;
