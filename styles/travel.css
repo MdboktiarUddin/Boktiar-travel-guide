@@ -40,12 +40,22 @@ nav li{
     display: flex;
     gap: 10px;
     padding: 10px;
+    width: 100%;
 }
+
 .destination-section{
     text-align: center;
 }
-.destination-img-container{
+.destination-section{
     display: grid;
+}
+.choose-container{
+    width: 1300px;
+    height: 1000px;
+}
+.choose-container{
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -53,18 +63,24 @@ nav li{
 
 @media screen and (max-width:576px){
     nav,
-    .background-input-section
-    {
+    .background-input-section{
         display: flex;
         flex-direction: column;
     }
-    .popular-section{
-        flex-direction: column-reverse;
-    }
-    .destination-img-container{
-
+    .destination-section{
+        display: grid;
+grid-template-columns: repeat(1,1fr);
     }
     
+        
+    .popular-section{
+        flex-direction: column-reverse;
+    } 
+    .destination-img-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+     }
+
 }
 
 
