@@ -36,12 +36,21 @@ nav li{
     display: flex;
     justify-content: space-evenly;
 }
-.img{
-    display: flex;
-    gap: 10px;
-    padding: 10px;
-    width: 100%;
+.container{
+    width: 1300px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(2,3fr)  1fr;
 }
+.photo{
+    width: 400px;
+    height: 300px;   
+}
+.photo img{
+    width:400px;
+    height: 300px;
+}
+
 
 .destination-section{
     text-align: center;
@@ -111,12 +120,16 @@ P{
 
 
 @media screen and (max-width: 576px) {
-    .nav-section
+    .nav-section,
+    .background-img-section
     {
         flex-direction: column;
     }
-    .background-img-section{
-        display: grid;
+    .container{
         grid-template-columns: repeat(1,1fr);
     }
+    
+    
+        
+    
 }
