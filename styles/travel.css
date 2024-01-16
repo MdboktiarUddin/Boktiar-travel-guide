@@ -28,6 +28,9 @@ nav li{
     text-align: center;
     color:aliceblue ;
     margin-bottom: 30px;
+    width:1180px;
+    height: 500px;
+    padding-top: 50px;
 }
 .popular-section{
     display: flex;
@@ -38,10 +41,16 @@ nav li{
 
 
 @media screen and (max-width:576px){
-    nav{
+    nav,
+    .background-input-section
+    {
         display: flex;
         flex-direction: column;
     }
+    .popular-section{
+        flex-direction: column-reverse;
+    }
+    
 }
 
 
