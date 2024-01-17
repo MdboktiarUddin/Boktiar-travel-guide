@@ -108,6 +108,7 @@ P{
     height: 580px;
     border: 1px solid lightskyblue;
     padding-left: 15px;
+    margin-bottom: 20px;
 }
 .newsletter img{
     width:595px;
@@ -125,18 +126,7 @@ P{
 .news-image{
     margin-left: 10px;
 }
-#box{
-    display: flex;
-    flex-direction: column;
-    text-align:right;
-    padding-bottom: 20px;
-    align-items: center;
-}
-#box img{
-    width: 10%;
-    height: 15%;
-    align-items: flex-start;
-}
+
 
 .icons{
     align-items: center;
@@ -162,6 +152,34 @@ P{
     }
     .newsletter-section{
         flex-direction: column;
+    }
+    .icons{
+        position: relative;
+      
+    }
+    .destination-section{
+        h3{
+            text-align: left;
+        }
+        P{
+            text-align: left;
+        }
+    }
+    .background-img-section{
+        h3{
+            text-align: left;
+        }
+        p{
+            text-align: left;
+        }
+        .popular-section-one{
+            h3{
+                text-align: left; 
+            }
+           p{
+            text-align: left; 
+           } 
+        }
     }
     
     
