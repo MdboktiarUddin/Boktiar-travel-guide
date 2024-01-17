@@ -96,11 +96,32 @@ h3{
 P{
     text-align: center;
 }
-.newsletter-container{
+.newsletter-section{
+    width: 1200px;
+    height: 600px;
+    border:1px solid lightseagreen;
     display: flex;
-    flex-direction: row;
-
+    padding-top: 100px;
 }
+.newsletter{
+    width: 580px;
+    height: 580px;
+    border: 1px solid lightskyblue;
+    padding-left: 15px;
+}
+.newsletter img{
+    width:595px;
+    height:560px;
+}
+.newsletter input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+
+
 .news-image{
     margin-left: 10px;
 }
@@ -116,14 +137,7 @@ P{
     height: 15%;
     align-items: flex-start;
 }
-.newsletter{
-    display: flex;
-    flex-direction: column;
-   width: 660px;
-   height: 640px;
-   padding: 20px 10px;
-   margin-top:30px ;
-}
+
 .icons{
     align-items: center;
     position: relative;
@@ -145,6 +159,9 @@ P{
     }
     .choose-container{
         grid-template-columns: repeat(1,1fr);
+    }
+    .newsletter-section{
+        flex-direction: column;
     }
     
     
