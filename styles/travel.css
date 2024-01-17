@@ -58,12 +58,27 @@ nav li{
 .destination-section{
     display: grid;
 }
+
 .choose-container{
-    width: 1300px;
-    height: 500px;
-    border:1px solid lightblue;
-    display: flex;
+    width: 1200px;
+    height: 300px;
+    border: 1px solid lightgrey;
+    display: grid;
+  grid-template-columns: repeat(1,2fr) 1fr;
+   gap: 20px;
+   padding-left: 10px;
 }
+.element{
+    width: 580px;
+    height: 284px;
+    border: 1px solid lightblue;
+}
+.choose-container img{
+width: 20%;
+height: 20%;
+}
+
+
 .choose-section{
     display: flex;
     flex-direction: column;
@@ -126,6 +141,9 @@ P{
         flex-direction: column;
     }
     .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .choose-container{
         grid-template-columns: repeat(1,1fr);
     }
     
